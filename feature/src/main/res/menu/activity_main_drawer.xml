@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/chats"
+            android:enabled="true"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="Chats"
+            android:visible="true" />
+        <item
+            android:id="@+id/groups"
+            android:enabled="true"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="Groups"
+            android:visible="true" />
+        <item
+            android:id="@+id/report"
+            android:enabled="true"
+            android:icon="@android:drawable/stat_notify_error"
+            android:title="Bug Report"
+            android:visible="true" />
+        <item
+            android:id="@+id/logOut"
+            android:enabled="true"
+            android:icon="@android:drawable/btn_dialog"
+            android:title="Log Out"
+            android:visible="true" />
+    </group>
+
+</menu>
